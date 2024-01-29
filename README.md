@@ -1,4 +1,4 @@
-# A ROS Drvier Package for Ubuntu 20.04 and FLIR Spinnaker SDK
+# A ROS Drvier Package for Ubuntu 20.04 and FLIR Spinnaker SDK 3
 
 ## 1. Getting Started
 
@@ -7,7 +7,7 @@
 ![Alt text](README/image.png)
 > Choose the appropriate c++ version of the SDK above and download it
 
-### 1.2 Use
+### 1.2 Usage
 
 Put the following code block into the `src/CMakeLists.txt`
 
@@ -25,7 +25,7 @@ set(FLIR_LIBRARYS ${FLIR_LIBRARY})
 set(FLIR_INCLUDE_DIRS ${FLIR_INCLUDE_DIR} ${FLIR_ROOT}/include)
 ```
 
-Then run it
+Then build and run it
 ```bash
 rosrun flir_ros_driver flir_node
 ```
